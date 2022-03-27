@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/pass.css">
     <title>Document</title>
-    <link rel="icon" href="/img/Super_Mario.jpeg"
+    <link rel="icon" href="/img/Super_Mario.jpeg" type="image/x-icon">
 </head>
+
 <body>
-    <a href="blog.html">Takes you to Blog!</a>
-    <h1 >Welcome to Jimmy Jimenez first ever website!</h1>
-    <img src="img/Super_Mario.jpeg" alt="Super Mario" width="600" height="400" class="center">
+    <header id="mainHeader">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <h1>Welcome to Jimmy Jimenez first ever website!</h1>
+        <img src="img/Super_Mario.jpeg" alt="Super Mario" width="600" height="400" class="center">
 
-    <h2 id="AM" style="">About Me</h2>
-    <hr>
-    <p>Hello, my name is Jimmy Jimenez. A senior at the univeristy of John Jay Criminial Justice. Majoring in Computer Science Information and Security.</p>
+        <h2 id="AM" style="">About Me</h2>
+        <hr>
+        <p>Hello, my name is Jimmy Jimenez. A senior at the univeristy of John Jay Criminial Justice. Majoring in
+            Computer Science Information and Security.</p>
 
-    <h3>Below is a link to my school!</h3>
+        <h3>Below is a link to my school!</h3>
 
-    <p>I am a student at the university of <b>John Jay College</b>. Pursuing the bachelor Degree of <mark>Computer Science: Information and Security.</mark></p>
+        <p>I am a student at the university of <b>John Jay College</b>. Pursuing the bachelor Degree of <mark>Computer
+                Science: Information and Security.</mark></p>
 
-    <img src="/img/200w.gif" alt="mario dancing" style="float: right;">
+        <img src="/img/200w.gif" alt="mario dancing" style="float: right;">
 
-    <h3><b>Below is a link to my school!</b></h3>
-    <a href="https://www.google.com/" target="_blank"><img src="/img/jj_logo_white.png" alt="John Jay logo"></a>
+        <h3><b>Below is a link to my school!</b></h3>
+        <a href="https://www.google.com/" target="_blank"><img src="/img/jj_logo_white.png" alt="John Jay logo"></a>
 
-    <a href="mailto:jimmyjimenez24000@gmail.com">Send mail to me!</a>
+        <a href="mailto:jimmyjimenez24000@gmail.com">Send mail to me!</a>
 
-    <br>
+        <br>
 
-    <button onclick='' title="Just a button">I am a button</button>
+        <button onclick='' title="Just a button">I am a button</button>
 
-    <a>Yo</a>
+        <a>Yo</a>
 
-    <a href="#AM">Jump to About Me</a>
-    <table>
-        <thead>
+        <a href="#AM">Jump to About Me</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
             <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
+                <td>Emil</td>
+                <td>Bob</td>
+                <td>Linus</td>
             </tr>
-        </thead>
-        <tr>
-            <td>Emil</td>
-            <td>Bob</td>
-            <td>Linus</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>15</td>
-            <td>14</td>
-        </tr>
-    </table>
-    <br>
-    <hr>
-    <br>
-    <form action="process.php" method="POST">
-        <div>
-            <label>First Name</label>
-            <input type="text" name="firstName">
-        </div>
+            <tr>
+                <td>16</td>
+                <td>15</td>
+                <td>14</td>
+            </tr>
+        </table>
         <br>
-        <div>
-            <label>Last Names</label>
-            <input type="text" name="lastName">
-        </div>
+        <hr>
         <br>
-        <div>
-            <label>Message</label>
-            <textarea name="message"></textarea>
-        </div>
-        <br>
-        <div>
-            <label>Gender</label>
-            <select name="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName">
+            </div>
+            <br>
+            <div>
+                <label>Last Names</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
 
-    </form>
+        </form>
 
-    <button>Click me</button>
-    
-    <blockquote cite="http://traversymedia.com">
-        Random stuff
-    </blockquote>
+        <button>Click me</button>
 
-    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+        <blockquote cite="http://traversymedia.com">
+            Random stuff
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+    </section>
 </body>
+
 </html>
