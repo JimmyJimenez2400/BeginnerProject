@@ -11,99 +11,52 @@
 </head>
 
 <body>
-    <header id="mainHeader">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </header>
-    <section>
-        <h1>Welcome to Jimmy Jimenez first ever website!</h1>
-        <img src="img/Super_Mario.jpeg" alt="Super Mario" width="600" height="400" class="center">
+    <div class="header">
+        <!--<img class="logo" src="/img/jj_logo_white.png" alt="logo"-->
+        <nav id="navBar">
+            <ul class="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#contact"><button>Contact</button></a>
+    </div>
+    <div class="container">
+        <div class="box-1">
+            <h1>
+                Welcome to the first ever website of mine!
+            </h1>
+            <p>I will start by saying that this is just a prototype. This will be updated as I go while learning! Thank
+                you!</p>
+        </div>
 
-        <h2 id="AM" style="">About Me</h2>
-        <hr>
-        <p>Hello, my name is Jimmy Jimenez. A senior at the univeristy of John Jay Criminial Justice. Majoring in
-            Computer Science Information and Security.</p>
+        <div class="box-2">
+            <h2>Goodbye World!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elit dolor, cursus eget aliquam ac,
+                sodales ut dolor. Integer vestibulum commodo sapien non dapibus. In ultricies, est dapibus aliquam
+                tristique, magna tellus porttitor quam, ut varius elit turpis a nisl. Morbi vel turpis ac orci commodo
+                imperdiet. Fusce finibus, dui ut euismod placerat, eros metus dignissim dui, ultrices porta nisl quam
+                eget tellus. Nullam laoreet ligula vel lectus dictum, quis hendrerit mi bibendum. Donec id nulla vel
+                urna aliquam lobortis id nec elit. Quisque egestas eu sem at accumsan. Praesent vitae massa a enim
+                sollicitudin auctor lobortis auctor eros. Donec cursus ligula mauris, vel hendrerit ex elementum non. Ut
+                at gravida nunc, laoreet tincidunt metus.</p>
+        </div>
 
-        <h3>Below is a link to my school!</h3>
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <li><a href="#">Category 4</a></li>
 
-        <p>I am a student at the university of <b>John Jay College</b>. Pursuing the bachelor Degree of <mark>Computer
-                Science: Information and Security.</mark></p>
+            </ul>
+        </div>
 
-        <img src="/img/200w.gif" alt="mario dancing" style="float: right;">
+    </div>
 
-        <h3><b>Below is a link to my school!</b></h3>
-        <a href="https://www.google.com/" target="_blank"><img src="/img/jj_logo_white.png" alt="John Jay logo"></a>
-
-        <a href="mailto:jimmyjimenez24000@gmail.com">Send mail to me!</a>
-
-        <br>
-
-        <button onclick='' title="Just a button">I am a button</button>
-
-        <a>Yo</a>
-
-        <a href="#AM">Jump to About Me</a>
-        <table>
-            <thead>
-                <tr>
-                    <th>Company</th>
-                    <th>Contact</th>
-                    <th>Country</th>
-                </tr>
-            </thead>
-            <tr>
-                <td>Emil</td>
-                <td>Bob</td>
-                <td>Linus</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>15</td>
-                <td>14</td>
-            </tr>
-        </table>
-        <br>
-        <hr>
-        <br>
-        <form action="process.php" method="POST">
-            <div>
-                <label>First Name</label>
-                <input type="text" name="firstName">
-            </div>
-            <br>
-            <div>
-                <label>Last Names</label>
-                <input type="text" name="lastName">
-            </div>
-            <br>
-            <div>
-                <label>Message</label>
-                <textarea name="message"></textarea>
-            </div>
-            <br>
-            <div>
-                <label>Gender</label>
-                <select name="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-
-        </form>
-
-        <button>Click me</button>
-
-        <blockquote cite="http://traversymedia.com">
-            Random stuff
-        </blockquote>
-
-        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
-    </section>
 </body>
 
 </html>
