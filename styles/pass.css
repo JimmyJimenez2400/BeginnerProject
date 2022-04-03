@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@700&family=Poppins:ital@1&family=Smokum&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     
-}
+}*/
 
 a {
     text-decoration: none;
@@ -24,7 +24,7 @@ li, a, button{
     font-family: "Monsterrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: black;
     text-decoration: none;
     
 }
@@ -52,6 +52,9 @@ h2 {
 .button:hover{
     background: red;
     color: white;
+}
+.clr{
+    clear: both;
 }
 .box-1{
     background-color: #333;
@@ -154,3 +157,65 @@ button:hover{
     width: 100%;
 }
 
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative; /* This is what makes absolute work */
+    background-image: url("../img/boji.jpg");
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
+}
+.p-box h1 {
+    position:absolute; /*allows you to freely move around in the respected space*/
+    top:90px;
+    left:200px;
+}
+.p-box h2 {
+    position: absolute;
+    bottom: 29px;
+    right: 200px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+.my-list li:first-child{
+    background: red;
+
+}
+.my-list li:last-child{
+    background: red;
+
+}
+.my-list li:nth-child(5){
+    background: yellow;
+
+}
+.my-list li:nth-child(even){
+    background: grey;
+
+}
